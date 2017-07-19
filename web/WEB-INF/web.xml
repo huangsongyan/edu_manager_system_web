@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	
+	<filter>
+	 	<filter-name>charater</filter-name>          
+		<filter-class>com.edu_manger_sys_servlet.FilterServlet</filter-class>    
+ 	</filter>
+ 	<filter-mapping>
+		 <filter-name>charater</filter-name>   
+		<url-pattern>/*</url-pattern>         
+	</filter-mapping>
+	
+	
+	
+	
+	
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginUser</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.loginUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchScore</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchScore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>examInfo</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.examInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchStudent</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchStudent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginTeacher</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.loginTeacher</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchSchedule</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchSchedule</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchAttendances</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchAttendances</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchMessages</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchMessages</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchAnnouncement</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchAnnouncement</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchStudent_Tec</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchStudent_Tec</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addStudentAttendance</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.addStudentAttendance</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchTeachClasses</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchTeachClasses</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchAllStudent_Tec</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchAllStudent_Tec</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchTeachers</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchTeachers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchClassStudent_Tec</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchClassStudent_Tec</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addMessage</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.addMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alterStudent_pwd</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.alterStudent_pwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>searchSchedule_tec</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.searchSchedule_tec</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stuFile</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.stuFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>tecFile</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.tecFile</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadServlet</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.uploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alterTeacher_pwd</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.alterTeacher_pwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadStuFile</servlet-name>
+    <servlet-class>com.edu_manger_sys_servlet.uploadStuFile</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>loginUser</servlet-name>
+    <url-pattern>/loginUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchScore</servlet-name>
+    <url-pattern>/searchScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>examInfo</servlet-name>
+    <url-pattern>/examInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchStudent</servlet-name>
+    <url-pattern>/searchStudent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginTeacher</servlet-name>
+    <url-pattern>/loginTeacher</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchSchedule</servlet-name>
+    <url-pattern>/searchSchedule</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchAttendances</servlet-name>
+    <url-pattern>/searchAttendances</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchMessages</servlet-name>
+    <url-pattern>/searchMessages</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchAnnouncement</servlet-name>
+    <url-pattern>/searchAnnouncement</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchStudent_Tec</servlet-name>
+    <url-pattern>/searchStudent_Tec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addStudentAttendance</servlet-name>
+    <url-pattern>/addStudentAttendance</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchTeachClasses</servlet-name>
+    <url-pattern>/searchTeachClasses</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchAllStudent_Tec</servlet-name>
+    <url-pattern>/searchAllStudent_Tec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchTeachers</servlet-name>
+    <url-pattern>/searchTeachers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchClassStudent_Tec</servlet-name>
+    <url-pattern>/searchClassStudent_Tec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addMessage</servlet-name>
+    <url-pattern>/addMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alterStudent_pwd</servlet-name>
+    <url-pattern>/alterStudent_pwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>searchSchedule_tec</servlet-name>
+    <url-pattern>/searchSchedule_tec</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stuFile</servlet-name>
+    <url-pattern>/stuFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>tecFile</servlet-name>
+    <url-pattern>/tecFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadServlet</servlet-name>
+    <url-pattern>/uploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alterTeacher_pwd</servlet-name>
+    <url-pattern>/alterTeacher_pwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadStuFile</servlet-name>
+    <url-pattern>/uploadStuFile</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
